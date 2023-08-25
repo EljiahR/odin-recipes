@@ -1,3 +1,26 @@
-* {
+body {
     text-align: center;
+    background-color: rgb(6, 46, 83);
+}
+.header {
+    font-size: 22px;
+    background-color: rgb(112, 183, 224);
+    width: 30%;
+    margin-left:auto;
+    margin-right: auto;
+    margin-bottom:-8px;
+    border-bottom: 1px solid rgb(112, 183, 224)
+}
+
+.recipes > * {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 18px;
+}
+.recipes {
+    background-color: rgb(112, 183, 224);
+    width: 60%;
+    margin: 8px auto;
+    padding-top: 24px;
+    padding-bottom: 60px;
 }
